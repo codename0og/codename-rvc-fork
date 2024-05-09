@@ -15,7 +15,9 @@
 ### The fork is confirmed and tested-in-field to work with python 3.10.6 with my requirements list. <br />( DO NOT USE python 3.12.0, it won't work. )
 
 
-⠀<br />
+<br />
+
+
 # Fork's features:
 **| Training related |**
 
@@ -74,11 +76,61 @@ I kinda worked on it but mehh, due to the reasons I've written about in my onnx 
 - in-built tts solution
 - auto dl'er for voice models ( dunno of that yet )
 - dataset evaluation mechanism ( fidelity scoring )
-
 <br />
 
-# Here's my other things if you're interested:
-- Standalone and lightweight rvc's native real-time-voice-changer:
+
+# Installation and usage guide:
+### Everything is easy and automated. Just read carefully and follow please:
+<br />
+
+- Step 1. Download the "codename-rvc-fork-v1.0.0.zip" from the release section.
+<br />
+
+- Step 2. Unpack the content of the .zip ( 'codename-rvc-fork-v1.0.0' folder ) to your preferred location.
+
+#### ⚠️ IMPORTANT: ㅤThe path to the unpacked rvc folder cannot contain spaces or funky symbols.
+#### An example of a good path:
+> D:\AI_related\voice-cloning\codename-rvc-fork-v1.0.0
+<br />
+ㅤ
+ㅤ
+
+- Step 3. In the fork's folder, go to:ㅤㅤ'requirements/RVC' and pick the right .bat for you:
+
+#### For standard Nvidia users:
+> ' install requirements for RVC ( NVIDIA-STANDARD ).bat '
+
+#### For Nvidia RTX30xx users:
+> ' install requirements for RVC ( NVIDIA-RTX30XX ).bat '
+
+#### IF THE ABOVE ↑ CAUSES YOUR GPU TO BE UNDETECTED / OTHER GPU RELATED PROBLEMS, <br />USE THE FOLLOWING ONE:
+> ' install requirements for RVC ( NVIDIA-RTX30XX )- CUDA_118.bat '
+<br />
+
+ㅤ
+ㅤ
+- Step 4. Go back to the main rvc folder and use this to download required assets:
+> ' download-required-assets.bat '
+<br />
+
+- Step 5. Run the RVC with:
+> ' RUN_WEB-UI.bat '
+<br />
+
+
+### Where to put downloaded RVC voice models?
+> Put the '.pth' model files in:ㅤㅤ'assets/weights'
+<br />
+
+
+> Put the index files:ㅤㅤ'logs/folder_with_the_same_name_as_the_pth_model'
+<br />
+
+### END OF THE GUIDE
+<br />
+
+# Here are my other thingies if you're interested:
+- Standalone and lightweight RVC's native real-time-voice-changer:
 > https://github.com/codename0og/rvc-realtime-voice-changer
 - Inferencing for RVC's onnx models:
 > https://github.com/codename0og/RVC_Onnx_Infer
