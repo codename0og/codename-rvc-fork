@@ -1,5 +1,5 @@
 ## Essentially an 'up-to-date RVC' <br />  <br />✨ Enhanced with everything I find useful, practical and neat ✨ <br />  <br />ㅤㅤㅤFork creator:   Codename;0 <br />ㅤ
-### **If you need to contact me, here's my discord:ㅤ.codename0.**
+### **If you need to contact me, here's my discord:ㅤ.codename.0.**
 > tho, please, let me know right away you come from github.
 > Also, keep in mind I don't keep people on my friend list for too long,<br />so don't get surprised with the removal after we sort our things out lol - no hate, that's how I am.
 <br />
