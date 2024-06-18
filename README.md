@@ -97,14 +97,11 @@ I kinda worked on it but mehh, due to the reasons I've written about in my onnx 
 
 - Step 3. In the fork's folder, go to:ㅤㅤ'requirements/RVC' and pick the right .bat for you:
 
-#### For standard Nvidia users:
-> ' install requirements for RVC ( NVIDIA-STANDARD ).bat '
+#### For standard Nvidia users ( GTX 10xx and RTX users ) :
+> ' install requirements for RVC (  CUDA117  ).bat '
 
-#### For Nvidia RTX30xx users:
-> ' install requirements for RVC ( NVIDIA-RTX30XX ).bat '
-
-#### IF THE ABOVE ↑ CAUSES YOUR GPU TO BE UNDETECTED / OTHER GPU RELATED PROBLEMS, <br />USE THE FOLLOWING ONE:
-> ' install requirements for RVC ( NVIDIA-RTX30XX )- CUDA_118.bat '
+#### IF THE ABOVE ↑ CAUSES YOUR GPU TO BE UNDETECTED ( some RTX 40xx cases), <br />USE THE FOLLOWING ONE:
+> ' install requirements for RVC (  CUDA118  ).bat '
 <br />
 
 ㅤ
